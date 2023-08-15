@@ -50,7 +50,7 @@ export default class Cards {
       });
     });
   }
-  
+
   showLoad(loader) {
     this.ulColl.forEach((e) => {
       e.innerHTML = '';
